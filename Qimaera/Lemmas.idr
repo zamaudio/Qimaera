@@ -1,10 +1,10 @@
-module Lemmas
+module Qimaera.Lemmas
 
 import Data.Nat
 import Data.Vect
 import Decidable.Equality
-import Injection
-import Complex
+import Qimaera.Injection
+import Qimaera.Complex
 
 %default total
 

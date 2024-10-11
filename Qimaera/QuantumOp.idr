@@ -1,18 +1,18 @@
-module QuantumOp
+module Qimaera.QuantumOp
 
+import Control.Linear.LIO
 import Data.Vect
 import Data.Nat
 import Decidable.Equality
 import System.File
-import Injection
-import Matrix
-import Complex
 import System.Random
-import Lemmas
-import QStateT
-import Control.Linear.LIO
-import LinearTypes
-import Unitary
+import Qimaera.Injection
+import Qimaera.Matrix
+import Qimaera.Complex
+import Qimaera.Lemmas
+import Qimaera.QStateT
+import Qimaera.LinearTypes
+import Qimaera.Unitary
 
 ||| The Qubit type is used to identify individual qubits. The Nat argument is
 ||| used to uniquely identify a qubit. This type does *not* carry any quantum

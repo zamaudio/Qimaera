@@ -1,9 +1,9 @@
-module CoinToss
+module Qimaera.CoinToss
 
 import Data.Vect
-import QStateT
-import QuantumOp
-import LinearTypes
+import Qimaera.QStateT
+import Qimaera.QuantumOp
+import Qimaera.LinearTypes
 
 ||| A fair coin toss (as an IO effect) via quantum resources.
 |||

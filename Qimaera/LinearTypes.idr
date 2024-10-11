@@ -1,4 +1,4 @@
-module LinearTypes 
+module Qimaera.LinearTypes 
 
 import Data.Vect
 

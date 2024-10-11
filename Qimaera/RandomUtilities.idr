@@ -1,4 +1,4 @@
-module RandomUtilities
+module Qimaera.RandomUtilities
 
 import System.Random
 import Data.Vect

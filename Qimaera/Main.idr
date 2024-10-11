@@ -1,26 +1,26 @@
-module Main
+module Qimaera.Main
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.Vect
 import Data.List
-import LinearTypes
-import Control.Linear.LIO
-import Unitary
-import QStateT
-import Teleportation
 import System.Random
-import Injection
-import QFT
-import Grover
-import AlterningBitsOracle
-import VQE
-import Complex
-import QuantumOp
-import CoinToss
-import QAOA
-import Graph
-import Examples
-import RUS
+import Qimaera.LinearTypes
+import Qimaera.Unitary
+import Qimaera.QStateT
+import Qimaera.Teleportation
+import Qimaera.Injection
+import Qimaera.QFT
+import Qimaera.Grover
+import Qimaera.AlterningBitsOracle
+import Qimaera.VQE
+import Qimaera.Complex
+import Qimaera.QuantumOp
+import Qimaera.CoinToss
+import Qimaera.QAOA
+import Qimaera.Graph
+import Qimaera.Examples
+import Qimaera.RUS
 
 -- %default total
   

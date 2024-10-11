@@ -1,15 +1,15 @@
-module Teleportation
+module Qimaera.Teleportation
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.List
 import Data.Vect
-import Unitary
-import Control.Linear.LIO
-import QStateT
-import Injection
-import LinearTypes
-import QuantumOp
-import Examples
+import Qimaera.Unitary
+import Qimaera.QStateT
+import Qimaera.Injection
+import Qimaera.LinearTypes
+import Qimaera.QuantumOp
+import Qimaera.Examples
 
 %default total
 

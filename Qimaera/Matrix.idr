@@ -1,9 +1,9 @@
-module Matrix
+module Qimaera.Matrix
 
 import Data.Vect
 import Data.Nat
-import Complex
-import Lemmas
+import Qimaera.Complex
+import Qimaera.Lemmas
 
 %default total
 

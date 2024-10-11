@@ -1,17 +1,17 @@
-module VQE
+module Qimaera.VQE
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.Vect
-import Unitary
-import Control.Linear.LIO
-import Lemmas
-import QStateT
-import Injection
-import LinearTypes
-import Complex
 import System.Random
-import QuantumOp
-import RandomUtilities
+import Qimaera.Unitary
+import Qimaera.Lemmas
+import Qimaera.QStateT
+import Qimaera.Injection
+import Qimaera.LinearTypes
+import Qimaera.Complex
+import Qimaera.QuantumOp
+import Qimaera.RandomUtilities
 
 %default total
 

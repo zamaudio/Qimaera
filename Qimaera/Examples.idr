@@ -1,16 +1,16 @@
-module Examples
+module Qimaera.Examples
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.Vect
 import Data.List
-import LinearTypes
-import Control.Linear.LIO
-import Unitary
-import QStateT
 import System.Random
-import Injection
-import Complex
-import QuantumOp
+import Qimaera.LinearTypes
+import Qimaera.Unitary
+import Qimaera.QStateT
+import Qimaera.Injection
+import Qimaera.Complex
+import Qimaera.QuantumOp
 
 
 ------------------------ Example of circuits built with unitary contructors -----------------------

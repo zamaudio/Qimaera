@@ -1,7 +1,7 @@
-module Graph
+module Qimaera.Graph
 
 import Data.Vect
-import Lemmas
+import Qimaera.Lemmas
 
 %default total
 

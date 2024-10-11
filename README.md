@@ -13,7 +13,7 @@ The latest version of Idris can be found [here](https://www.idris-lang.org/pages
 
 Type `make package` to build the whole package.
 
-Type `make` to compile the main file and `./run` to run it.
+Type `./run` to run the built-in example.
 
 ## <a id="getting_started"></a> Getting Started
 

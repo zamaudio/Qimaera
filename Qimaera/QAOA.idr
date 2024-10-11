@@ -1,18 +1,18 @@
-module QAOA
+module Qimaera.QAOA
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.Vect
-import Graph
-import Lemmas
-import Unitary
-import Control.Linear.LIO
-import QStateT
-import Injection
-import LinearTypes
-import Complex
 import System.Random
-import QuantumOp
-import RandomUtilities
+import Qimaera.Graph
+import Qimaera.Lemmas
+import Qimaera.Unitary
+import Qimaera.QStateT
+import Qimaera.Injection
+import Qimaera.LinearTypes
+import Qimaera.Complex
+import Qimaera.QuantumOp
+import Qimaera.RandomUtilities
 
 %default total
 

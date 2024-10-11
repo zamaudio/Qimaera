@@ -1,8 +1,8 @@
-module OptimiseUnitary
+module Qimaera.OptimiseUnitary
 
 import Data.Vect
 import Data.Nat
-import Unitary
+import Qimaera.Unitary
 
 
 

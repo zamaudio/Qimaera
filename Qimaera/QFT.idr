@@ -1,11 +1,11 @@
-module QFT
+module Qimaera.QFT
 
 import Data.Nat
 import Data.Vect
 import Decidable.Equality
-import Unitary
-import Injection
-import Lemmas
+import Qimaera.Unitary
+import Qimaera.Injection
+import Qimaera.Lemmas
 
 %default total
 

@@ -10,4 +10,29 @@ homepage = "https://github.com/zamdzhiev/Qimaera"
 sourceloc = "https://github.com/zamdzhiev/Qimaera"
 bugtracker = "https://github.com/zamdzhiev/Qimaera/issues"
 
-modules = Unitary, QStateT, QuantumOp, VQE, Grover, CoinToss, QFT, Teleportation, OptimiseUnitary, Graph, QAOA, RandomUtilities, Examples, RUS
+modules = Qimaera
+        , Qimaera.AlterningBitsOracle
+        , Qimaera.CoinToss
+        , Qimaera.Complex
+        , Qimaera.ExampleDetectableErrors
+        , Qimaera.Examples
+        , Qimaera.Graph
+        , Qimaera.Grover
+        , Qimaera.Injection
+        , Qimaera.Lemmas
+        , Qimaera.LinearTypes
+        , Qimaera.Matrix
+        , Qimaera.OptimiseUnitary
+        , Qimaera.QAOA
+        , Qimaera.QFT
+        , Qimaera.QStateT
+        , Qimaera.QuantumOp
+        , Qimaera.RandomUtilities
+        , Qimaera.RUS
+        , Qimaera.Teleportation
+        , Qimaera.Unitary
+        , Qimaera.VQE
+
+main = Qimaera.Main
+
+executable = "main"

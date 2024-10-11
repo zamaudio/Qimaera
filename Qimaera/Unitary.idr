@@ -1,10 +1,10 @@
-module Unitary
+module Qimaera.Unitary
 
 import Data.Vect
 import Data.Nat
 import System.File
-import Injection
-import Lemmas
+import Qimaera.Injection
+import Qimaera.Lemmas
 
 infixr 9 .
 infixr 10 #

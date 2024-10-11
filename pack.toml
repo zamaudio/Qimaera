@@ -1,0 +1,4 @@
+[custom.all.qimaera]
+type = "local"
+path = "."
+ipkg = "qimaera.ipkg"

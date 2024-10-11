@@ -1,4 +1,4 @@
-module Injection
+module Qimaera.Injection
 
 import Data.Vect
 import Data.Nat

@@ -1,16 +1,16 @@
-module Grover
+module Qimaera.Grover
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.Vect
 import Decidable.Equality
-import Unitary
-import Injection
-import LinearTypes
-import Lemmas
-import Control.Linear.LIO
-import QStateT
-import AlterningBitsOracle
-import QuantumOp
+import Qimaera.Unitary
+import Qimaera.Injection
+import Qimaera.LinearTypes
+import Qimaera.Lemmas
+import Qimaera.QStateT
+import Qimaera.AlterningBitsOracle
+import Qimaera.QuantumOp
 
 %default total
 

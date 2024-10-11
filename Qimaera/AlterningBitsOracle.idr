@@ -1,8 +1,8 @@
-module AlterningBitsOracle
+module Qimaera.AlterningBitsOracle
 
 import Data.Nat
-import Unitary
-import Lemmas
+import Qimaera.Unitary
+import Qimaera.Lemmas
 
 
 %default total

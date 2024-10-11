@@ -5,7 +5,7 @@
 -}
 
 
-module Complex
+module Qimaera.Complex
 
 --%access public export
 

@@ -1,17 +1,17 @@
-module ExampleDetectableErrors
+module Qimaera.ExampleDetectableErrors
 
+import Control.Linear.LIO
 import Data.Nat
 import Data.Vect
 import Data.List
-import LinearTypes
-import Control.Linear.LIO
-import Unitary
-import QStateT
 import System.Random
-import Injection
-import Complex
-import QuantumOp
-import Examples
+import Qimaera.LinearTypes
+import Qimaera.Unitary
+import Qimaera.QStateT
+import Qimaera.Injection
+import Qimaera.Complex
+import Qimaera.QuantumOp
+import Qimaera.Examples
 
 -------------------------------------- Impossible Unitaries ---------------------------------------
 -- In this example, we try to apply a Hadamard gate on a non-existing wire (index 4 on a gate of size 3)

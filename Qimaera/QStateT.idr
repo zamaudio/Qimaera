@@ -1,8 +1,8 @@
-module QStateT
+module Qimaera.QStateT
 
 import Control.Monad.State
-import LinearTypes
 import Control.Linear.LIO
+import Qimaera.LinearTypes
 
 %default total
 
