@@ -1,0 +1,11 @@
+package shor
+version = 0.1
+depends = qimaera
+brief = "Shor's algorithm using Qimaera"
+license = "MIT"
+authors = "Damien Zammit"
+
+modules = Shor
+main = Shor
+
+executable = "shor"

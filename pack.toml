@@ -2,3 +2,9 @@
 type = "local"
 path = "."
 ipkg = "qimaera.ipkg"
+test = "shor/shor.ipkg"
+
+[custom.all.shor]
+type = "local"
+path = "shor"
+ipkg = "shor.ipkg"
